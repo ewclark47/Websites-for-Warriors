@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Websites for Warriors</title>
+</head>
+
+<style>
+    a{
+        color: azure;
+    }
+    a:visited{
+        color: #99a299;
+    }
+    #pagename{
+        padding-top: 15px;
+        width: 25%;
+        margin: auto;
+    }
+    body{
+        background-image: url("https://cdn.wallpapersafari.com/7/48/f3Hrnv.jpg");
+        font-family: monospace, sans-serif;
+        color: #ffffff;
+    }
+    #about-us{
+         width: 50%;
+         margin: auto;
+     }
+    .signup-form{
+        color: whitesmoke;
+        width: fit-content;
+        margin-top: 4em;
+        margin-left: 50em;
+        border: black 4px solid;
+        padding: 2px;
+    }
+    #form-header{
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 3em;
+    }
+    #cost{
+        display: inline-block;
+        width: 30%;
+        float: left;
+        text-align: left;
+        margin-left: 10em;
+    }
+    #eligibility{
+        display: inline-block;
+        width: 30%;
+        float: right;
+        text-align: right;
+        margin-right: 10em;
+    }
+    #websites-reviews{
+        margin-left: 10em;
+        margin-right: 10em;
+    }
+    #services{
+        display: inline-block;
+        border: black 4px dashed;
+        width: fit-content;
+        padding-left: 10px;
+        margin: auto;
+    }
+    #contact-list{
+        font-size: .75em;
+    }
+    #contact-info{
+        margin-left: 50em;
+        margin-top: 5em;
+        color: black;
+    }
+    #contact-header{
+        margin-top: 1em;
+        margin-left: 3em;
+    }
+    #cost-p{
+        clear: both;
+
+    }
+    #eligibility-p{
+        clear: both;
+        float: right;
+    }
+</style>
+
+<body>
+<h1 id="pagename">Websites for Warriors</h1>
+
+<div id="about-us">
+<h2>About Us</h2>
+<p>
+    Websites for Warriors is a nonprofit organization offering <em><strong>FREE</strong></em>
+    services to servicemembers, veterans and their families. Find out more about who we are
+    <span><a href="About%20Us.html">here</a></span>
+</p></div>
+
+<div id="cost">
+<h3><strong>Cost?</strong></h3>
+    <p id="cost-p">
+        Websites for Warriors provides free<br>
+        services to all current <br>
+        military personnel, veterans <br>
+        and their families!
+    </p>
+    </div>
+
+<div id="eligibility">
+<h3><strong>Eligibility</strong></h3>
+    <p id="eligibility-p">
+        Our services are available to all<br>
+        Reserves, Guard, Active duty <br>
+        <em>and</em> family members!
+    </p>
+</div>
+
+<div id="services">
+<h3><a href="Provided%20Services.html">Provided Services</a></h3>
+<ul>
+    <li>Website Design and Implementation</li>
+    <li>Maintenance and Management <em>(limited)</em></li>
+    <li>Classes and Consulting <u>as requested</u></li>
+</ul></div>
+
+<div class="signup-form">
+<form action="submit-email.php" method="post" id = "signup">
+    <h2 id="form-header">Sign Up</h2>
+    <div class="field">
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" placeholder="Please enter name or Org. name"/>
+        <small></small>
+    </div>
+    <div class="field">
+        <label for="email">Email: </label>
+        <input type="text" id="email" name="email" placeholder="Please enter email address"/>
+        <small></small>
+    </div>
+    <div class="field">
+        <label for="message">Message: </label>
+        <input type="text" id="message" name = "message" placeholder="Enter your message here"/>
+    </div>
+    <div class="field">
+    <button type="submit" value="Send Form">Submit</button>
+    </div>
+</form>
+</div>
+<script src="Test.js"></script>
+
+<div id="websites-reviews">
+<h4 style="float: left" id="websites">Websites so far</h4>
+
+<h4 style="float: right" id="reviews">Real Warrior Reviews</h4>
+</div>
+
+<div id="contact-info">
+<h5 id="contact-header"><u>Contact Us:</u></h5>
+<ul id="contact-list">
+    <li>phone: ###-###-####</li>
+    <li>email: abcdef@abc.com</li>
+</ul>
+</div>
+</body>
+</html>

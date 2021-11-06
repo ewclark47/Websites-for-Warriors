@@ -1,0 +1,11 @@
+body{
+    background-image: url("https://cdn.wallpapersafari.com/7/48/f3Hrnv.jpg");
+    font-family: monospace, sans-serif;
+    color: #717c72;
+}
+#services{
+    border: black 6px dashed;
+    width: 50%;
+    padding-left: 10px;
+    margin: auto;
+}
